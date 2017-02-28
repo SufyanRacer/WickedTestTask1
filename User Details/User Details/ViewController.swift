@@ -61,6 +61,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
             if indexPath.row == 0 {
                 let cell:PhotoCellTableViewCell = tableView.dequeueReusableCell(withIdentifier: "ProfileCell")!as! PhotoCellTableViewCell
                 user.image = cell.profileImageView!
+                cell.profileImageView.layer.borderColor = UIColor.white.cgColor
                 return cell
             }
             if indexPath.row == 1 {
@@ -101,9 +102,11 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
                 let cell:GenderSelectionCell = tableView.dequeueReusableCell(withIdentifier: "GenderSelectionCell")!as! GenderSelectionCell
                 cell.genderMaleButton.tag = 101
                 cell.genderFemaleButton.tag = 102
+                cell.genderMaleButton.layer.borderColor = UIColor.white.cgColor
+                cell.genderFemaleButton.layer.borderColor = UIColor.white.cgColor
                 if user.gender == "" {
-                    cell.genderMaleButton.backgroundColor = UIColor.gray
-                    cell.genderFemaleButton.backgroundColor = UIColor.gray
+                    cell.genderMaleButton.backgroundColor = UIColor.clear
+                    cell.genderFemaleButton.backgroundColor = UIColor.clear
                 } else {
                     if user.gender == "Male" {
                         cell.genderMaleButton.backgroundColor = UIColor(red: 0/255, green: 122/255, blue: 255/255, alpha: 1.0)
@@ -156,6 +159,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
             if indexPath.row == 5 {
                 let cell:DatePickerCellTableViewCell = tableView.dequeueReusableCell(withIdentifier: "DatePickerCell")!as! DatePickerCellTableViewCell
                 cell.dobPicker.addTarget(self, action: #selector(handleDatePicker(sender:)), for: UIControlEvents.valueChanged)
+                cell.dobPicker.setValue(UIColor.white, forKeyPath: "textColor")
                 return cell
             }
             if indexPath.row == 6 {
@@ -163,15 +167,15 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
                 cell.genderMaleButton.tag = 101
                 cell.genderFemaleButton.tag = 102
                 if user.gender == "" {
-                    cell.genderMaleButton.backgroundColor = UIColor.gray
-                    cell.genderFemaleButton.backgroundColor = UIColor.gray
+                    cell.genderMaleButton.backgroundColor = UIColor.clear
+                    cell.genderFemaleButton.backgroundColor = UIColor.clear
                 } else {
                     if user.gender == "Male" {
-                        cell.genderMaleButton.backgroundColor = UIColor(red: 0/255, green: 122/255, blue: 255/255, alpha: 1.0)
-                        cell.genderFemaleButton.backgroundColor = UIColor.gray
+                        cell.genderMaleButton.backgroundColor = UIColor.white
+                        cell.genderFemaleButton.backgroundColor = UIColor.clear
                     } else {
-                        cell.genderMaleButton.backgroundColor = UIColor.gray
-                        cell.genderFemaleButton.backgroundColor = UIColor(red: 239/255, green: 62/255, blue: 62/255, alpha: 1.0)
+                        cell.genderMaleButton.backgroundColor = UIColor.clear
+                        cell.genderFemaleButton.backgroundColor = UIColor.white
                     }
                 }
                 
@@ -182,7 +186,6 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         
         return nullCell
     }
-    
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         
@@ -195,7 +198,6 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         }
         
     }
-    
     
     func insertRowAtIndexPath(indexPath: IndexPath) {
         
@@ -215,9 +217,6 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         informationTableView.deselectRow(at: indexPath, animated: true)
         informationTableView.endUpdates()
     }
-    
-    
-    
     
     // MARK: Keyboard Apperance Selector Method
     
@@ -331,19 +330,20 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         return true
     }
     
-    
+    // MARK: Gender Select Action
     @IBAction func genderButtonClicked(_ sender: UIButton) {
         
         if sender.tag == 101 {
             user.gender = "Male"
-            sender.backgroundColor = UIColor(red: 0/255, green: 122/255, blue: 255/255, alpha: 1.0)
+
+            sender.backgroundColor = UIColor.white
             let femaleButton : UIButton = (self.view.viewWithTag(102))! as! UIButton
-            femaleButton.backgroundColor = UIColor.gray
+            femaleButton.backgroundColor = UIColor.clear
         } else {
             user.gender = "Female"
-            sender.backgroundColor = UIColor(red: 239/255, green: 62/255, blue: 62/255, alpha: 1.0)
+            sender.backgroundColor = UIColor.white
             let maleButton : UIButton = (self.view.viewWithTag(101))! as! UIButton
-            maleButton.backgroundColor = UIColor.gray
+            maleButton.backgroundColor = UIColor.clear
         }
         
     }
