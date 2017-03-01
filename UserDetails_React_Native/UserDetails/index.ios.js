@@ -9,25 +9,54 @@ import {
   AppRegistry,
   StyleSheet,
   Text,
-  View
+  TextInput,
+  Button,
+  TouchableHighlight,
+  Navigator,
+  View,
+  Alert
 } from 'react-native';
 
+import routes from './ScreenRoutes';
+import UserDetailsInputScreen from './UserDetailsInputScreen';
 export default class UserDetails extends Component {
+
+  pushViews(route,navigator){
+    if (route.index === 0)
+    {
+     return(
+        <UserDetailsInputScreen navigator={navigator} />
+      )
+    }
+    if(route.index === 1)
+    {
+      return(
+        <View>
+          <Text>Hello Second Screen </Text>
+        </View>
+      )
+    }
+  }
+ 
+ 
   render() {
-    return (
-      <View style={styles.container}>
-        <Text style={styles.welcome}>
-          Welcome to React Native!
-        </Text>
-        <Text style={styles.instructions}>
-          To get started, edit index.ios.js
-        </Text>
-        <Text style={styles.instructions}>
-          Press Cmd+R to reload,{'\n'}
-          Cmd+D or shake for dev menu
-        </Text>
-      </View>
+    
+    return(
+      <Navigator
+        initialRoute={routes[0]}
+        initialRouteStack={routes}
+        renderScene={(route, navigator) =>
+          {
+              return(
+                this.pushViews(route,navigator)
+              )
+          } 
+        }
+      />
+       
+    
     );
+
   }
 }
 
@@ -36,7 +65,7 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: '#F5FCFF',
+   
   },
   welcome: {
     fontSize: 20,
