@@ -222,7 +222,7 @@ export default class UserDetailsInputScreen extends Component{
               date={this.state.date}
               mode="date"
               placeholder="select date"
-              format="YYYY-MM-DD"
+              format="MMM DD YYYY"
               minDate="1950-01-01"
               maxDate={new Date().toISOString().substring(0, 10)}
               confirmBtnText="Confirm"
