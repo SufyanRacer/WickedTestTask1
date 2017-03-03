@@ -19,6 +19,8 @@ const { width, height } = Dimensions.get('window');
 
 import DatePicker from 'react-native-datepicker'
 import routes from './ScreenRoutes';
+import UserDetailsScreen from './UserDetailsScreen';
+
 var ImagePicker = require('react-native-image-picker');
 
 
@@ -32,7 +34,7 @@ export default class UserDetailsInputScreen extends Component{
       nametext: '',
       emailtext:'',
       phonenumber: '',
-      date:new Date().toISOString().substring(0, 10),
+      date: new Date().toISOString().substring(0, 10),
       avatarSource:''
     };
   }
@@ -67,10 +69,16 @@ export default class UserDetailsInputScreen extends Component{
   pushViewNextView(){
 
     this.props.navigator.push({
-        name: 'Secure Page',
-        component: Screenfile,
-        passProps: {nametext: this.state.nametext, emailtext: this.state.emailtext,phonenumber: this.state.phonenumber,date: this.state.date,
-           value:this.state.value,avatarSource: this.state.avatarSource, gender: this.state.gender},
+        index: routes[1].index,
+        component: UserDetailsScreen,
+        passProps: {
+          nametext: this.state.nametext,
+          emailtext: this.state.emailtext,
+          phonenumber: this.state.phonenumber,
+          date: this.state.date,
+          avatarSource: this.state.avatarSource,
+          gender: this.state.gender
+        }
     });
   }
 
@@ -96,10 +104,8 @@ export default class UserDetailsInputScreen extends Component{
     }
     else {
       let source = { uri: response.uri }
-
       // You can also display the image using data:
       // let source = { uri: 'data:image/jpeg;base64,' + response.data };
-
       this.setState({
         avatarSource: source
       })
@@ -153,9 +159,7 @@ export default class UserDetailsInputScreen extends Component{
     let femaleButtonBackground = (this.state.gender === 'Female' ? {backgroundColor: 'white'} : {backgroundColor: 'transparent'})
     return(
          
-    <Image style = {styles.backgroundImage} source={require('./images/main_background.jpg')} onPress={() => {
-        console.log('beat it...')
-      }}>
+    <Image style = {styles.backgroundImage} source={require('./images/main_background.jpg')}>
 
       <View style={styles.profileImageHolderView}>
         <TouchableOpacity style={styles.profileImageClickableStyle}
@@ -218,13 +222,12 @@ export default class UserDetailsInputScreen extends Component{
           </View>
           <View style={styles.datePickerViewStyle}>
             <DatePicker
-              style={{width: 200}}
+              style={{width: 205}}
               date={this.state.date}
               mode="date"
               placeholder="select date"
               format="MMM DD YYYY"
-              minDate="1950-01-01"
-              maxDate={new Date().toISOString().substring(0, 10)}
+              
               confirmBtnText="Confirm"
               cancelBtnText="Cancel"
               iconSource={require('./images/Calendar.png')}
@@ -232,13 +235,14 @@ export default class UserDetailsInputScreen extends Component{
                 dateIcon: {
                   position: 'absolute',
                   left: 0,
-                  top: 4,
+                  marginTop: 8,
                   marginLeft: 20,
                   width: 25,
                   height: 25
                 },
                 dateInput: {
                   marginLeft: 20,
+                  marginTop: 7,
                   borderColor: '#FFFFFF00'
                 },
                 dateText: {
@@ -283,7 +287,7 @@ export default class UserDetailsInputScreen extends Component{
         </View>
       </ScrollView>
       <View style={{alignItems:'center',justifyContent:'center', height: 55 }}>
-        <TouchableOpacity underlayColor='gray' style={{width: width-40,height: 40,alignItems:'center',justifyContent:'center', borderWidth:1,borderColor:'#FFFFFF', marginBottom: 10,backgroundColor:'#FFFFFF'}}
+        <TouchableOpacity underlayColor='gray' style={{width: width-40,height: 40,alignItems:'center',justifyContent:'center', borderWidth:1,borderColor:'#FFFFFF',borderRadius: 10, marginBottom: 10,backgroundColor:'#FFFFFF'}}
               onPress={() => this.onSubmitPressed()} >
 
           <Text style={styles.submitButtonText}>Submit</Text>

@@ -3,6 +3,105 @@
 
     <item
         is-multidex="true"
+        jar="/Users/grepruby/Documents/Sufyan/W.I.C.K.E.D Task.E/1. User Details Project/iOS Native/UserDetails_React_Native/UserDetails/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline/0.11.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="3341b66c54367e777a0647e2db96c045329bfeab">
+        <dex dex="/Users/grepruby/Documents/Sufyan/W.I.C.K.E.D Task.E/1. User Details Project/iOS Native/UserDetails_React_Native/UserDetails/android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.facebook.fresco-imagepipeline-0.11.0_d5f17391a8c3a94b79a7941c947f23fc7a9e972b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/grepruby/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.9.0/f824591a0016efbaeddb8300bee54832a1398cfa/okio-1.9.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="f824591a0016efbaeddb8300bee54832a1398cfa">
+        <dex dex="/Users/grepruby/Documents/Sufyan/W.I.C.K.E.D Task.E/1. User Details Project/iOS Native/UserDetails_React_Native/UserDetails/android/app/build/intermediates/transforms/dex/debug/folders/1000/10/okio-1.9.0_5c6aa2dbd06f905a11dc644db66392133c6cc246/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/grepruby/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-tasks/1.4.0/d85884acf6810a3bbbecb587f239005cbc846dc4/bolts-tasks-1.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="/Users/grepruby/Documents/Sufyan/W.I.C.K.E.D Task.E/1. User Details Project/iOS Native/UserDetails_React_Native/UserDetails/android/app/build/intermediates/transforms/dex/debug/folders/1000/10/bolts-tasks-1.4.0_527ece79d9fb0c736253ed1d2616ae8935b83229/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/grepruby/Documents/Sufyan/W.I.C.K.E.D Task.E/1. User Details Project/iOS Native/UserDetails_React_Native/UserDetails/android/app/build/intermediates/exploded-aar/com.facebook.fbui.textlayoutbuilder/textlayoutbuilder/1.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="f90b593491e4044903f0bbf68dc3fa2790b151b9">
+        <dex dex="/Users/grepruby/Documents/Sufyan/W.I.C.K.E.D Task.E/1. User Details Project/iOS Native/UserDetails_React_Native/UserDetails/android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.facebook.fbui.textlayoutbuilder-textlayoutbuilder-1.0.0_d6771690ce8a118ccff85cb03d9510a3bc5f8e89/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/grepruby/Documents/Sufyan/W.I.C.K.E.D Task.E/1. User Details Project/iOS Native/UserDetails_React_Native/UserDetails/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-base/0.11.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="ca63c521b5745ae9a09629d7ca67ff6bc2a967fe">
+        <dex dex="/Users/grepruby/Documents/Sufyan/W.I.C.K.E.D Task.E/1. User Details Project/iOS Native/UserDetails_React_Native/UserDetails/android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.facebook.fresco-imagepipeline-base-0.11.0_c0e3ce869a0bf5a9bc29ef531242b42508ce438e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/grepruby/Documents/Sufyan/W.I.C.K.E.D Task.E/1. User Details Project/iOS Native/UserDetails_React_Native/UserDetails/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.41.2/jars/libs/infer-annotations-1.5.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="dcac634e137395f79693ec760f081a86eb2bd84e">
+        <dex dex="/Users/grepruby/Documents/Sufyan/W.I.C.K.E.D Task.E/1. User Details Project/iOS Native/UserDetails_React_Native/UserDetails/android/app/build/intermediates/transforms/dex/debug/folders/1000/10/infer-annotations-1.5_7c2f99dc1a1d10461bdb144a2015a0c9488d94dd/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/grepruby/Documents/Sufyan/W.I.C.K.E.D Task.E/1. User Details Project/iOS Native/UserDetails_React_Native/UserDetails/android/app/build/intermediates/exploded-aar/com.facebook.fresco/drawee/0.11.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="1137942adeb03984c1311b662363dd38fc238fd3">
+        <dex dex="/Users/grepruby/Documents/Sufyan/W.I.C.K.E.D Task.E/1. User Details Project/iOS Native/UserDetails_React_Native/UserDetails/android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.facebook.fresco-drawee-0.11.0_1f8839b3f7ed5020df527b212630235298a0007c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/grepruby/Documents/Sufyan/W.I.C.K.E.D Task.E/1. User Details Project/iOS Native/UserDetails_React_Native/UserDetails/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-okhttp3/0.11.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="2b8a01ad9da5d26d0067894c22e87597bca2c500">
+        <dex dex="/Users/grepruby/Documents/Sufyan/W.I.C.K.E.D Task.E/1. User Details Project/iOS Native/UserDetails_React_Native/UserDetails/android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.facebook.fresco-imagepipeline-okhttp3-0.11.0_08bfdd924be423b68da08874102b5127ce28c298/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/grepruby/Documents/Sufyan/W.I.C.K.E.D Task.E/1. User Details Project/iOS Native/UserDetails_React_Native/UserDetails/android/app/build/intermediates/exploded-aar/com.facebook.soloader/soloader/0.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="8f615bca00639150c9eb6175d4b5471193f70794">
+        <dex dex="/Users/grepruby/Documents/Sufyan/W.I.C.K.E.D Task.E/1. User Details Project/iOS Native/UserDetails_React_Native/UserDetails/android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.facebook.soloader-soloader-0.1.0_2d23ad21ecf643787b295089219e1d4001ad492b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/grepruby/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.4.1/c7c4f9e35c2fd5900da24f9872e3971801f08ce0/okhttp-3.4.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="c7c4f9e35c2fd5900da24f9872e3971801f08ce0">
+        <dex dex="/Users/grepruby/Documents/Sufyan/W.I.C.K.E.D Task.E/1. User Details Project/iOS Native/UserDetails_React_Native/UserDetails/android/app/build/intermediates/transforms/dex/debug/folders/1000/10/okhttp-3.4.1_6a6ca56704c63794bb5f5bb72e50f478f783fe54/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/grepruby/Documents/Sufyan/W.I.C.K.E.D Task.E/1. User Details Project/iOS Native/UserDetails_React_Native/UserDetails/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fresco/0.11.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d31aadf33187c37a7cd63dc1b769f8c6e33f78c3">
+        <dex dex="/Users/grepruby/Documents/Sufyan/W.I.C.K.E.D Task.E/1. User Details Project/iOS Native/UserDetails_React_Native/UserDetails/android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.facebook.fresco-fresco-0.11.0_81f10cfa99caba052c6bb9fe276b346dcf4bd5d6/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/Users/grepruby/Documents/Sufyan/W.I.C.K.E.D Task.E/1. User Details Project/iOS Native/UserDetails_React_Native/UserDetails/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
@@ -48,24 +147,6 @@
     </item>
     <item
         is-multidex="true"
-        jar="/Users/grepruby/Documents/Sufyan/W.I.C.K.E.D Task.E/1. User Details Project/iOS Native/UserDetails_React_Native/UserDetails/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline/0.11.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.1"
-        sha1="3341b66c54367e777a0647e2db96c045329bfeab">
-        <dex dex="/Users/grepruby/Documents/Sufyan/W.I.C.K.E.D Task.E/1. User Details Project/iOS Native/UserDetails_React_Native/UserDetails/android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.facebook.fresco-imagepipeline-0.11.0_d5f17391a8c3a94b79a7941c947f23fc7a9e972b/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/grepruby/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.9.0/f824591a0016efbaeddb8300bee54832a1398cfa/okio-1.9.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.1"
-        sha1="f824591a0016efbaeddb8300bee54832a1398cfa">
-        <dex dex="/Users/grepruby/Documents/Sufyan/W.I.C.K.E.D Task.E/1. User Details Project/iOS Native/UserDetails_React_Native/UserDetails/android/app/build/intermediates/transforms/dex/debug/folders/1000/10/okio-1.9.0_5c6aa2dbd06f905a11dc644db66392133c6cc246/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="/Users/grepruby/.gradle/caches/modules-2/files-2.1/com.facebook.fbui.textlayoutbuilder/staticlayout-proxy/1.0/f162442a19fff13995fbd51ba414d9ee05579080/staticlayout-proxy-1.0.jar"
         jumboMode="true"
         optimize="true"
@@ -75,30 +156,12 @@
     </item>
     <item
         is-multidex="true"
-        jar="/Users/grepruby/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-tasks/1.4.0/d85884acf6810a3bbbecb587f239005cbc846dc4/bolts-tasks-1.4.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.1"
-        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
-        <dex dex="/Users/grepruby/Documents/Sufyan/W.I.C.K.E.D Task.E/1. User Details Project/iOS Native/UserDetails_React_Native/UserDetails/android/app/build/intermediates/transforms/dex/debug/folders/1000/10/bolts-tasks-1.4.0_527ece79d9fb0c736253ed1d2616ae8935b83229/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="/Users/grepruby/Documents/Sufyan/W.I.C.K.E.D Task.E/1. User Details Project/iOS Native/UserDetails_React_Native/UserDetails/android/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
         jumboMode="true"
         optimize="true"
         revision="23.0.1"
-        sha1="e7a605497f2122a7245a28b62df853b85105d95b">
+        sha1="d04d1871199feadb8429b9796d577bb08ac9f19f">
         <dex dex="/Users/grepruby/Documents/Sufyan/W.I.C.K.E.D Task.E/1. User Details Project/iOS Native/UserDetails_React_Native/UserDetails/android/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_aec6cef36a62ec75e8c5e37ea7218c015f7449df/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/grepruby/Documents/Sufyan/W.I.C.K.E.D Task.E/1. User Details Project/iOS Native/UserDetails_React_Native/UserDetails/android/app/build/intermediates/exploded-aar/com.facebook.fbui.textlayoutbuilder/textlayoutbuilder/1.0.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.1"
-        sha1="f90b593491e4044903f0bbf68dc3fa2790b151b9">
-        <dex dex="/Users/grepruby/Documents/Sufyan/W.I.C.K.E.D Task.E/1. User Details Project/iOS Native/UserDetails_React_Native/UserDetails/android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.facebook.fbui.textlayoutbuilder-textlayoutbuilder-1.0.0_d6771690ce8a118ccff85cb03d9510a3bc5f8e89/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -120,57 +183,12 @@
     </item>
     <item
         is-multidex="true"
-        jar="/Users/grepruby/Documents/Sufyan/W.I.C.K.E.D Task.E/1. User Details Project/iOS Native/UserDetails_React_Native/UserDetails/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-base/0.11.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.1"
-        sha1="ca63c521b5745ae9a09629d7ca67ff6bc2a967fe">
-        <dex dex="/Users/grepruby/Documents/Sufyan/W.I.C.K.E.D Task.E/1. User Details Project/iOS Native/UserDetails_React_Native/UserDetails/android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.facebook.fresco-imagepipeline-base-0.11.0_c0e3ce869a0bf5a9bc29ef531242b42508ce438e/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/grepruby/Documents/Sufyan/W.I.C.K.E.D Task.E/1. User Details Project/iOS Native/UserDetails_React_Native/UserDetails/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.41.2/jars/libs/infer-annotations-1.5.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.1"
-        sha1="dcac634e137395f79693ec760f081a86eb2bd84e">
-        <dex dex="/Users/grepruby/Documents/Sufyan/W.I.C.K.E.D Task.E/1. User Details Project/iOS Native/UserDetails_React_Native/UserDetails/android/app/build/intermediates/transforms/dex/debug/folders/1000/10/infer-annotations-1.5_7c2f99dc1a1d10461bdb144a2015a0c9488d94dd/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="/Users/grepruby/Documents/Sufyan/W.I.C.K.E.D Task.E/1. User Details Project/iOS Native/UserDetails_React_Native/UserDetails/android/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"
         revision="23.0.1"
-        sha1="d5645d8ab2fe66bdd8412a76d01726de51a2d4c2">
+        sha1="3b13d9535d0360572a378abaf948ca321373f990">
         <dex dex="/Users/grepruby/Documents/Sufyan/W.I.C.K.E.D Task.E/1. User Details Project/iOS Native/UserDetails_React_Native/UserDetails/android/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_c5b8db792d6d2b1e4cc3054627c75b2d1f2e347a/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/grepruby/Documents/Sufyan/W.I.C.K.E.D Task.E/1. User Details Project/iOS Native/UserDetails_React_Native/UserDetails/android/app/build/intermediates/exploded-aar/com.facebook.fresco/drawee/0.11.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.1"
-        sha1="1137942adeb03984c1311b662363dd38fc238fd3">
-        <dex dex="/Users/grepruby/Documents/Sufyan/W.I.C.K.E.D Task.E/1. User Details Project/iOS Native/UserDetails_React_Native/UserDetails/android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.facebook.fresco-drawee-0.11.0_1f8839b3f7ed5020df527b212630235298a0007c/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/grepruby/Documents/Sufyan/W.I.C.K.E.D Task.E/1. User Details Project/iOS Native/UserDetails_React_Native/UserDetails/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-okhttp3/0.11.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.1"
-        sha1="2b8a01ad9da5d26d0067894c22e87597bca2c500">
-        <dex dex="/Users/grepruby/Documents/Sufyan/W.I.C.K.E.D Task.E/1. User Details Project/iOS Native/UserDetails_React_Native/UserDetails/android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.facebook.fresco-imagepipeline-okhttp3-0.11.0_08bfdd924be423b68da08874102b5127ce28c298/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/grepruby/Documents/Sufyan/W.I.C.K.E.D Task.E/1. User Details Project/iOS Native/UserDetails_React_Native/UserDetails/android/app/build/intermediates/exploded-aar/com.facebook.soloader/soloader/0.1.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.1"
-        sha1="8f615bca00639150c9eb6175d4b5471193f70794">
-        <dex dex="/Users/grepruby/Documents/Sufyan/W.I.C.K.E.D Task.E/1. User Details Project/iOS Native/UserDetails_React_Native/UserDetails/android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.facebook.soloader-soloader-0.1.0_2d23ad21ecf643787b295089219e1d4001ad492b/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -210,30 +228,12 @@
     </item>
     <item
         is-multidex="true"
-        jar="/Users/grepruby/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.4.1/c7c4f9e35c2fd5900da24f9872e3971801f08ce0/okhttp-3.4.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.1"
-        sha1="c7c4f9e35c2fd5900da24f9872e3971801f08ce0">
-        <dex dex="/Users/grepruby/Documents/Sufyan/W.I.C.K.E.D Task.E/1. User Details Project/iOS Native/UserDetails_React_Native/UserDetails/android/app/build/intermediates/transforms/dex/debug/folders/1000/10/okhttp-3.4.1_6a6ca56704c63794bb5f5bb72e50f478f783fe54/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="/Users/grepruby/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp-ws/3.4.1/8ace66ef7002d98f633377c9e67daeeb196d8c3b/okhttp-ws-3.4.1.jar"
         jumboMode="true"
         optimize="true"
         revision="23.0.1"
         sha1="8ace66ef7002d98f633377c9e67daeeb196d8c3b">
         <dex dex="/Users/grepruby/Documents/Sufyan/W.I.C.K.E.D Task.E/1. User Details Project/iOS Native/UserDetails_React_Native/UserDetails/android/app/build/intermediates/transforms/dex/debug/folders/1000/10/okhttp-ws-3.4.1_b770d39e59b50f16b832fa698187bcd221447fc1/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/grepruby/Documents/Sufyan/W.I.C.K.E.D Task.E/1. User Details Project/iOS Native/UserDetails_React_Native/UserDetails/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fresco/0.11.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.1"
-        sha1="d31aadf33187c37a7cd63dc1b769f8c6e33f78c3">
-        <dex dex="/Users/grepruby/Documents/Sufyan/W.I.C.K.E.D Task.E/1. User Details Project/iOS Native/UserDetails_React_Native/UserDetails/android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.facebook.fresco-fresco-0.11.0_81f10cfa99caba052c6bb9fe276b346dcf4bd5d6/classes.dex" />
     </item>
 
 </items>

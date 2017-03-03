@@ -11,7 +11,7 @@ import {
   Text,
   TextInput,
   Button,
-  TouchableHighlight,
+  TouchableOpacity,
   Navigator,
   View,
   Alert
@@ -19,21 +19,22 @@ import {
 
 import routes from './ScreenRoutes';
 import SignUpScreen from './SignUpScreen';
+import UserDetailsScreen from './UserDetailsScreen';
+
 export default class UserDetails extends Component {
 
   pushViews(route,navigator){
+    
     if (route.index === 0)
     {
-     return(
+      return(
         <SignUpScreen navigator={navigator} />
       )
     }
     if(route.index === 1)
     {
       return(
-        <View>
-          <Text>Hello Second Screen </Text>
-        </View>
+        <UserDetailsScreen navigator={navigator} data={route.passProps}/>
       )
     }
   }
@@ -47,14 +48,12 @@ export default class UserDetails extends Component {
         initialRouteStack={routes}
         renderScene={(route, navigator) =>
           {
-              return(
-                this.pushViews(route,navigator)
-              )
+            return(
+              this.pushViews(route,navigator)
+            )
           } 
         }
       />
-       
-    
     );
 
   }
