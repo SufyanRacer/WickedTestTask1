@@ -462,7 +462,16 @@ int drawable abc_textfield_default_mtrl_alpha 0x7f02003a
 int drawable abc_textfield_search_activated_mtrl_alpha 0x7f02003b
 int drawable abc_textfield_search_default_mtrl_alpha 0x7f02003c
 int drawable abc_textfield_search_material 0x7f02003d
-int drawable notification_template_icon_bg 0x7f02003e
+int drawable images_calendar 0x7f02003e
+int drawable images_gender 0x7f02003f
+int drawable images_mail 0x7f020040
+int drawable images_main_background 0x7f020041
+int drawable images_phone 0x7f020042
+int drawable images_profile 0x7f020043
+int drawable images_user 0x7f020044
+int drawable node_modules_reactnative_libraries_customcomponents_navigationexperimental_assets_backicon 0x7f020045
+int drawable node_modules_reactnativedatepicker_date_icon 0x7f020046
+int drawable notification_template_icon_bg 0x7f020047
 int id action0 0x7f0d0057
 int id action_bar 0x7f0d0047
 int id action_bar_activity_content 0x7f0d0000

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="armeabi-v7a,armeabi"
+    api-level="23"
+    density="xhdpi"
+    format="8"
+    plugin-version="2.2.3"
+    timestamp="30381280140377"
+    token="-6813088922922757176"
+    verifier="FULL_BUILD_REQUESTED" >
+
+    <task
+        name="javac"
+        duration="1085" />
+    <task
+        name="instant-run-dex"
+        duration="0" />
+    <task
+        name="instant-run-transform"
+        duration="995" />
+    <task
+        name="verifier"
+        duration="141" />
+
+    <artifact
+        location="/Users/grepruby/Documents/Sufyan/W.I.C.K.E.D Task.E/1. User Details Project/iOS Native/UserDetails_React_Native/UserDetails/android/app/build/outputs/apk/app-debug.apk"
+        type="MAIN" />
+
+    <build
+        timestamp="30381280140377"
+        verifier="FULL_BUILD_REQUESTED" >
+        <artifact
+            location="/Users/grepruby/Documents/Sufyan/W.I.C.K.E.D Task.E/1. User Details Project/iOS Native/UserDetails_React_Native/UserDetails/android/app/build/outputs/apk/app-debug.apk"
+            type="MAIN" />
+    </build>
+
+</instant-run>

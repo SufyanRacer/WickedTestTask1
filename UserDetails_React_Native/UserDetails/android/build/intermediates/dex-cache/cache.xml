@@ -160,7 +160,7 @@
         jumboMode="true"
         optimize="true"
         revision="23.0.1"
-        sha1="d04d1871199feadb8429b9796d577bb08ac9f19f">
+        sha1="34140687dd42096039315612e128d0265fa2a079">
         <dex dex="/Users/grepruby/Documents/Sufyan/W.I.C.K.E.D Task.E/1. User Details Project/iOS Native/UserDetails_React_Native/UserDetails/android/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_aec6cef36a62ec75e8c5e37ea7218c015f7449df/classes.dex" />
     </item>
     <item
@@ -187,7 +187,7 @@
         jumboMode="true"
         optimize="true"
         revision="23.0.1"
-        sha1="3b13d9535d0360572a378abaf948ca321373f990">
+        sha1="9efa7cbc7d2f7c75e710de12cf61e0d503f6b4a2">
         <dex dex="/Users/grepruby/Documents/Sufyan/W.I.C.K.E.D Task.E/1. User Details Project/iOS Native/UserDetails_React_Native/UserDetails/android/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_c5b8db792d6d2b1e4cc3054627c75b2d1f2e347a/classes.dex" />
     </item>
     <item
