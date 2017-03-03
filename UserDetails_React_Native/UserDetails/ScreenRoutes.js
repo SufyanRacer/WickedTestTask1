@@ -1,6 +1,6 @@
 const routes = [
-    {title: 'First Scene', index: 0},
-    {title: 'Second Scene', index: 1},
+    {title: 'Signup Screen', index: 0},
+    {title: 'User Details Screen', index: 1},
   ];
 
 export default routes

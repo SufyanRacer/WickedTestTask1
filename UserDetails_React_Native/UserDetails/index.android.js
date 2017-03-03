@@ -18,14 +18,14 @@ import {
 } from 'react-native';
 
 import routes from './ScreenRoutes';
-import UserDetailsInputScreen from './UserDetailsInputScreen';
+import SignUpScreen from './SignUpScreen';
 export default class UserDetails extends Component {
 
   pushViews(route,navigator){
     if (route.index === 0)
     {
      return(
-        <UserDetailsInputScreen navigator={navigator} />
+        <SignUpScreen navigator={navigator} />
       )
     }
     if(route.index === 1)

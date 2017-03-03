@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/grepruby/Documents/Sufyan/W.I.C.K.E.D Task.E/1. User Details Project/iOS Native/UserDetails_React_Native/UserDetails/android/app/build/intermediates/res/merged/debug/xml/provider_paths.xml",
+        "source": "/Users/grepruby/Documents/Sufyan/W.I.C.K.E.D Task.E/1. User Details Project/iOS Native/UserDetails_React_Native/UserDetails/android/app/build/intermediates/exploded-aar/UserDetails/react-native-image-picker/unspecified/res/xml/provider_paths.xml"
+    },
+    {
+        "merged": "/Users/grepruby/Documents/Sufyan/W.I.C.K.E.D Task.E/1. User Details Project/iOS Native/UserDetails_React_Native/UserDetails/android/app/build/intermediates/res/merged/debug/xml/preferences.xml",
+        "source": "/Users/grepruby/Documents/Sufyan/W.I.C.K.E.D Task.E/1. User Details Project/iOS Native/UserDetails_React_Native/UserDetails/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.41.2/res/xml/preferences.xml"
+    }
+]
